@@ -1,0 +1,35 @@
+From cf4b834eeb1ea4282f6018ca98dc2d12dfb32b2e Mon Sep 17 00:00:00 2001
+From: firnsy <firnsy@gmail.com>
+Date: Mon, 30 Jun 2014 19:10:20 +1000
+Subject: [PATCH 1/7] updated: icon theme name change and updated inherits.
+
+---
+ Numix-Circle/index.theme | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/Numix-Circle/index.theme b/Numix-Circle/index.theme
+index 6beb086..6fd8798 100644
+--- a/Numix-Circle/index.theme
++++ b/Numix-Circle/index.theme
+@@ -1,8 +1,8 @@
+ [Icon Theme]
+-Name=Numix Circle
+-Comment=Numix icon theme with a circular apps icons design
++Name=Korora
++Comment=Korora icon theme that extends on Numix-Circle
+ 
+-Inherits=Numix
++Inherits=Korora-Base
+ 
+ Example=directory-x-normal
+ 
+@@ -39,4 +39,4 @@ Size=16
+ Context=Applications
+ MinSize=8
+ MaxSize=512
+-Type=Scalable
+\ No newline at end of file
++Type=Scalable
+-- 
+2.1.0
+

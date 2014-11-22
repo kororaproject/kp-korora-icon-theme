@@ -1,0 +1,22 @@
+From a2213950531eabfa0e52db4e66992c88ce25f1ae Mon Sep 17 00:00:00 2001
+From: firnsy <firnsy@gmail.com>
+Date: Tue, 1 Jul 2014 13:53:24 +1000
+Subject: [PATCH 3/7] added: new qt4-logo alias for qt4logo icon.
+
+(cherry picked from commit eaaa9c0493c9a3ff4109e11dca59fcda02840191)
+---
+ Numix-Circle/48x48/apps/qt4-logo.svg | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 120000 Numix-Circle/48x48/apps/qt4-logo.svg
+
+diff --git a/Numix-Circle/48x48/apps/qt4-logo.svg b/Numix-Circle/48x48/apps/qt4-logo.svg
+new file mode 120000
+index 0000000..6d45d7f
+--- /dev/null
++++ b/Numix-Circle/48x48/apps/qt4-logo.svg
+@@ -0,0 +1 @@
++qt4logo.svg
+\ No newline at end of file
+-- 
+2.1.0
+

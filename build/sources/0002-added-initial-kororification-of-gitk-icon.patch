@@ -1,0 +1,22 @@
+From 98b96a0bf476624097cd4a7d02ee5a4b706ae35a Mon Sep 17 00:00:00 2001
+From: firnsy <firnsy@gmail.com>
+Date: Tue, 1 Jul 2014 13:47:21 +1000
+Subject: [PATCH 2/7] added: initial kororification of gitk icon.
+
+(cherry picked from commit 047b270023d9c09add754f0c341a2763a4bac95c)
+---
+ Numix-Circle/48x48/apps/gitk.svg | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 120000 Numix-Circle/48x48/apps/gitk.svg
+
+diff --git a/Numix-Circle/48x48/apps/gitk.svg b/Numix-Circle/48x48/apps/gitk.svg
+new file mode 120000
+index 0000000..e6630d8
+--- /dev/null
++++ b/Numix-Circle/48x48/apps/gitk.svg
+@@ -0,0 +1 @@
++gitg.svg
+\ No newline at end of file
+-- 
+2.1.0
+

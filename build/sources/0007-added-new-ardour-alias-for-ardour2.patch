@@ -1,0 +1,21 @@
+From c27653c41e4dd1439ccf4a2beab5c57c5bfcca25 Mon Sep 17 00:00:00 2001
+From: firnsy <firnsy@kororaproject.org>
+Date: Sat, 4 Oct 2014 19:56:00 +1000
+Subject: [PATCH 7/7] added: new ardour alias for ardour2.
+
+---
+ Numix-Circle/48x48/apps/ardour2.svg | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 120000 Numix-Circle/48x48/apps/ardour2.svg
+
+diff --git a/Numix-Circle/48x48/apps/ardour2.svg b/Numix-Circle/48x48/apps/ardour2.svg
+new file mode 120000
+index 0000000..de8b00f
+--- /dev/null
++++ b/Numix-Circle/48x48/apps/ardour2.svg
+@@ -0,0 +1 @@
++ardour.svg
+\ No newline at end of file
+-- 
+2.1.0
+
