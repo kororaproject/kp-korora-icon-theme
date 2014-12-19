@@ -19,7 +19,7 @@ index 6beb086..6fd8798 100644
 +Comment=Korora icon theme that extends on Numix-Circle
  
 -Inherits=Numix
-+Inherits=Korora-Base
++Inherits=korora-base
  
  Example=directory-x-normal
  

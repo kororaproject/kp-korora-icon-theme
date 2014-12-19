@@ -2,7 +2,7 @@
 
 Name:           korora-icon-theme
 Version:        0.2
-Release:        1%{?dist}
+Release:        1%{?dist}.1
 Summary:        Icons for the Korora Project
 License:        GPLv3
 URL:            https://kororaproject.org/
