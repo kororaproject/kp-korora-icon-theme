@@ -2,11 +2,12 @@
 
 Name:           korora-icon-theme
 Version:        0.2
-Release:        1%{?dist}.1
+Release:        1%{?dist}.2
 Summary:        Icons for the Korora Project
 License:        GPLv3
 URL:            https://kororaproject.org/
 Source0:        https://github.com/numixproject/numix-icon-theme-circle/tarball/%{git}
+Source1:        anaconda.svg
 Patch0:         0001-updated-icon-theme-name-change-and-updated-inherits.patch
 Patch1:         0002-added-initial-kororification-of-gitk-icon.patch
 Patch2:         0003-added-new-qt4-logo-alias-for-qt4logo-icon.patch
@@ -36,6 +37,7 @@ Korora Project styling.
 %install
 mkdir -p %{buildroot}%{_datadir}/icons/korora
 cp -apR Numix-Circle/* %{buildroot}%{_datadir}/icons/korora
+install %{SOURCE1} %{buildroot}%{_datadir}/icons/korora/scalable/apps/
 chmod 644 %{buildroot}%{_datadir}/icons/korora/index.theme
 
 %post
@@ -52,7 +54,7 @@ gtk-update-icon-cache %{_datadir}/icons/korora &>/dev/null ||:
 
 %files
 %doc license
-%{_datadir}/icons/korora/
+%{_datadir}/icons/korora/*
 
 %changelog
 * Sat Nov 15 2014 Ian Firns <firnsy@kororaproject.org> - 0.2-1
