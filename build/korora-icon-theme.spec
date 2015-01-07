@@ -15,8 +15,8 @@ Patch3:         0004-added-kororified-lash-icon.patch
 Patch4:         0005-added-kororified-welcome-icon.patch
 Patch5:         0006-added-kororified-pharlap-icon.patch
 Patch6:         0007-added-new-ardour-alias-for-ardour2.patch
-
 BuildArch:      noarch
+Requires:       korora-icon-theme-base
 
 %description
 This is an icon theme based on the Numix project that has been adapated to the
