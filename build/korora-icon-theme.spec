@@ -1,7 +1,8 @@
-%define git ac4b41d
+#%define git ac4b41d
+%define git 84cf0de
 
 Name:           korora-icon-theme
-Version:        0.4
+Version:        0.5
 Release:        1%{?dist}
 Summary:        Icons for the Korora Project
 License:        GPLv3
@@ -57,6 +58,9 @@ gtk-update-icon-cache %{_datadir}/icons/korora &>/dev/null ||:
 %{_datadir}/icons/korora/*
 
 %changelog
+* Fri Jan  8 2016 Ian Firns <firnsy@kororaproject.org> - 0.5-1
+- Updated to latest upstream.
+
 * Thu Jun  4 2015 Ian Firns <firnsy@kororaproject.org> - 0.4-1
 - Updated to latest upstream.
 
